@@ -26,8 +26,8 @@ abbrlink:
 # URL
 ## 网址, 必须以 http:// 或 https:// 开头
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-## url: http://towerdance.xyz/blog
-url: https://zpsong-tower.github.io/
+url: http://towerdance.xyz/blog
+## url: https://zpsong-tower.github.io/
 ## 文章的永久链接(https://hexo.io/zh-cn/docs/permalinks)格式
 permalink: posts/:abbrlink.html
 ## 永久链接中各部分的默认值
@@ -186,7 +186,7 @@ algolia:
 # hexo-butterfly-swiper
 # see https://akilar.top/posts/8e1264d1/
 swiper:
-  enable: true # 开关
+  enable: false # 开关
   priority: 1 #过滤器优先权
   enable_page: / # 应用页面
   timemode: date #date/updated
@@ -297,23 +297,32 @@ magnet:
   devide: 3
   display:
     - name: 算法
-      display_name: 小Fの算法学习笔记
-      icon: 🍡
-    - name: 计算机基础
-      display_name: 小Fの计算机基础笔记
-      icon: 🍼
-    - name: 魔改教程
-      display_name: 小Fの博客魔改教程
+      display_name: 算法
+      icon: 🌈
+    - name: 编程语言
+      display_name: 编程语言
+      icon: 🍓
+    - name: 网络
+      display_name: 网络
       icon: 🍉
-    - name: Java基础
-      display_name: 小FのJava基础笔记
-      icon: 🍟
-    - name: 数据库
-      display_name: 小Fの数据库笔记
-      icon: 🍨
-    - name: 演示
-      display_name: 小Fの案例演示笔记
-      icon: 🍥
+    - name: 大前端
+      display_name: 大前端
+      icon: 🍱
+    - name: 后端
+      display_name: 后端
+      icon: 🌶️
+    - name: 游戏开发
+      display_name: 游戏开发
+      icon: 🍭
+    - name: 音视频
+      display_name: 音视频
+      icon: 🍉
+    - name: AIGC
+      display_name: AIGC
+      icon: 🍧
+    - name: Others
+      display_name: Others
+      icon: 🍰
   color_setting:
     text_color: black # 文字默认颜色
     text_hover_color: white # 文字鼠标悬浮颜色
